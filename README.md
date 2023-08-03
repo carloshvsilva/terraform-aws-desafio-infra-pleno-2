@@ -25,7 +25,7 @@ Neste projeto são provisionados recursos como:
   # :arrow_forward: Executando o projeto
   - Realizar um clone deste repositório
     ```cmd
-    git clone https://github.com/carloshvsilva/desafio-infra-pleno-2.git
+    git clone https://github.com/carloshvsilva/terraform-aws-desafio-infra-pleno-2
     ```
   - Acessar a rais do repositório onde contém o arquivo `main.tf` e executar:
     - Inicialia diretório de trabalho contendo arquivos de configuração do Terraform
@@ -51,5 +51,5 @@ Neste projeto são provisionados recursos como:
     
  # :wrench: Descrição dos arquivos
  - `main.tf`: contém as informações para o provisionamento da infraestrutura de rede e computação
- - `scripts\ubuntu.sh`
+ - `scripts\ubuntu.sh`: script que realiza a instação dos programas necessários para execução da aplicação
    
